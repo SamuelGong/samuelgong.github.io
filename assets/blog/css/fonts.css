@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Optima';
+    src: url('/fonts/optima.woff');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.woff2');
+}
+
+body {
+    font-family: 'Optima', 'Open Sans', 'Lucida Sans', 'source-han-serif-sc', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', 'Microsoft YaHei', sans-serif;
+}
+  
+code {
+    font-family: 'JetBrains Mono', 'Cousine', 'Lucida Console', 'Andale Mono', monospace;
+}
+
+pre code {
+    font-family: 'JetBrains Mono', 'Cousine', Consolas, 'Lucida Console', Monaco, monospace;
+}
