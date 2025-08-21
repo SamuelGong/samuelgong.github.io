@@ -91,7 +91,7 @@
 <h1 style="text-align:center">Zhifeng Jiang<br/>江志锋</h1>
 <center>
 <p>
-<span class="font-weight-bold"><center>Senior Research Scientist at Huawei FSI Lab</center></span>
+<span class="font-weight-bold"><center>Research Scientist at Huawei FSI Lab</center></span>
 <!-- <span class="font-weight-bold">HKUST</span> <br> -->
 </p>
 </center>
@@ -235,10 +235,25 @@ Last Updated: Aug 2025
         <a href="https://hkust.edu.hk/home" target="_blank">Hong Kong University of Science and Technology</a>. 
         advised by <a href="https://www.cse.ust.hk/~weiwa" target="_blank">Prof. Wei Wang</a>.
         I also work closely with <a href="https://www.ruichuan.org/">Dr. Ruichuan Chen</a> and <a href="https://www.cse.ust.hk/~bli">Prof. Bo Li</a>.
-        I got my B.S. degree in 2019 from <a href="http://www.en.cs.zju.edu.cn/">Department of Computer Science and Technology</a>, <a href="http://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a>.
+        I got my Bachelor degree in 2019 from <a href="http://www.en.cs.zju.edu.cn/">Department of Computer Science and Technology</a>, <a href="http://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a>.
     </p>
 
-    <p><b>Research Interests</b>: Privacy Preserving Machine Learning</p>
+    <p>Current Interests: Natural Language Generation</p>
+    <ul>
+      <li><strong>LLM Inference Efficiency</strong>: Parallel decoding for AR LLMs; accelerate diffusion-based LLMs.</li>
+      <li><strong>LLM-Based Applications</strong>:
+        <ul>
+          <li>Domain-specific RAG-based question answering</li>
+          <li><a href="https://github.com/SamuelGong/hey" target="_blank">Hey</a>: A general-purpose, command-line AI agent with flexible tool calling and self correction abilities.</li>
+        </ul>
+      </li>
+    </ul>
+    <p>Interests during PhD.: Privacy Preserving Machine Learning
+    <ul>
+      <li><strong>Private Inference for LLMs</strong>: Ensure system prompt privacy with minimized impact on conversational quality (<a href="https://openreview.net/forum?id=1h4RHO6xoN" target="_blank">PromptKeeper</a>); replicate membership inference and data reconstruction attacks against LLMs for further investigation (<a href="https://github.com/SamuelGong/grad_attacks" target="_blank">released code</a>).</li>
+      <li><strong>Private and Efficient Federated Training</strong>: Secure participant selection against adversarial servers (<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/jiang-zhifeng" target="_blank">Lotto</a>); Enable dropout-resilient differential privacy without loss in time performance (<a href="https://dl.acm.org/doi/10.1145/3627703.3629559" target="_blank">Dordis</a>); Train asynchronously for end-to-end speedup (<a href="https://dl.acm.org/doi/abs/10.1145/3542929.3563463" target="_blank">Pisces</a>).</li>
+    </ul>
+    </p>
     <p><i>Dissertation: <a href="https://lbezone.hkust.edu.hk/rse/?p=64144" target="_blank">"Towards Private and Efficient Cross-Device Federated Learning</a>"</i></p>
     <!-- <p><i>Feel free reach out for research, collaborations, or a casual chat. Also, please consider giving me <a href="https://forms.gle/ZN9X3LcG8x79gR146" target="_blank">anonymous feedback</a>.</i></p> -->
 
@@ -251,6 +266,9 @@ Last Updated: Aug 2025
 <h2>News</h2>
 <div style="margin-left:10px;margin-right:10px">
 <ul>
+  <li> 2025-08: <a href="https://openreview.net/forum?id=1h4RHO6xoN" target="_blank">PromptKeeper</a> accepted to appear in the Findings of EMNLP 2025.</li>
+</ul>
+<ul>
   <li> 2024-12: One paper accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858">IEEE TDSC</a>. Congrats to my co-authors!</li>
 </ul>
 <ul>
@@ -260,7 +278,7 @@ Last Updated: Aug 2025
   <li> 2024-08: Presented our work <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/jiang-zhifeng">Lotto</a> at USENIX Security 2024.</li>
 </ul>
 <ul>
-  <li> 2024-08: Given an invited talk in a seminar at Shanghai Jiao Tong University.</li>
+  <li> 2024-08: Given an invited talk in a <a href="https://www.ji.sjtu.edu.cn/event/event-detail/?eventID=76726">seminar</a> at Shanghai Jiao Tong University.</li>
 </ul>
 <ul>
   <li> 2024-07: Given an invited talk in an online seminar of Huawei.</li>
@@ -271,7 +289,7 @@ Last Updated: Aug 2025
 <ul>
   <li> 2024-07: Received Research Travel Grant from UGC, Hong Kong.</li>
 </ul>
-<ul>
+<!-- <ul>
   <li> 2024-06: Given an invited talk at Shenzhen Institute of Computing Sciences.</li>
 </ul>
 <ul>
@@ -291,7 +309,7 @@ Last Updated: Aug 2025
 </ul>
 <ul>
   <li> 2024-04: My <a href="assets/docs/phd-thesis-proposal.pdf">PhD thesis proposal</a> has been approved.</li>
-</ul>
+</ul> -->
 <!-- <ul>
   <li> 2024-03: <a href="https://arxiv.org/pdf/2401.02880.pdf">Lotto</a> accepted to USENIX Security 2024. Congrats to my collaborators!</li>
 </ul> -->
@@ -324,6 +342,12 @@ Last Updated: Aug 2025
 <div style="margin-left:10px;margin-right:10px">
 
 <ul>
+  <li> <div id="promptkeeper"><span class="badge badge-primary progress-bar-danger" style="font-size: 13px;">Findings of EMNLP'25</span><font size="3"> <b>PromptKeeper: Safeguarding System Prompts for LLMs</b></font></div>
+        <u>Zhifeng Jiang</u>, Zhihua Jin, Guoliang He</li>
+        [<a href="https://openreview.net/forum?id=1h4RHO6xoN" target="_blank">html</a>] [<a href="https://github.com/SamuelGong/PromptKeeper" target="_blank">code</a>]
+</ul>
+
+<ul>
   <li> <div id="selection"><span class="badge badge-primary progress-bar-danger" style="font-size: 13px;">USENIX Security'24</span><font size="3"> <b>Lotto: Secure Participant Selection against Adversarial Servers in Federated Learning</b></font></div>
         <u>Zhifeng Jiang</u>, Peng Ye, Shiqi He, Wei Wang, Ruichuan Chen, Bo Li</li>
         [<a href="assets/docs/lotto-security24.pdf" target="_blank">pdf</a>] [<a href="https://arxiv.org/pdf/2401.02880" target="_blank">full version</a>] [<a href="https://github.com/SamuelGong/Lotto" target="_blank">code</a>] [<a href="https://www.usenix.org/conference/usenixsecurity24/presentation/jiang-zhifeng" target="_blank">html</a>] [<a href="https://www.youtube.com/watch?v=ufqhtEWOrLw" target="_blank">video</a>] [<a href="assets/docs/lotto-security24-slides.pdf" target="_blank">slides</a>] [<a href="assets/docs/lotto-security24.bib" target="_blank">bibtex</a>]
@@ -347,14 +371,6 @@ Last Updated: Aug 2025
       [<a href="assets/docs/pisces-socc22.pdf" target="_blank">pdf</a>] [<a href="https://github.com/SamuelGong/Pisces" target="_blank">code</a>] [<a href="https://dl.acm.org/doi/abs/10.1145/3542929.3563463" target="_blank">html</a>] [<a href="assets/docs/pisces-socc22-slides.pdf" target="_blank">slides</a>] [<a href="assets/docs/pisces-socc22-poster.pdf" target="_blank">poster</a>] [<a href="assets/docs/pisces-socc22.bib" target="_blank">bibtex</a>]
 </ul>
 
-<ul>
-  <li> <div id="gillis"><font size="3"> <span class="badge badge-primary progress-bar-danger" style="font-size: 13px;">IEEE ICDCS'21</span> <b>Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning</b></font></div>
-        Minchen Yu, <U>Zhifeng Jiang</U>, Hok Chun Ng, Wei Wang, Ruichuan Chen, Bo Li</li>
-        [<a href="assets/docs/gillis-icdcs21.pdf" target="_blank">pdf</a>] [<a href="https://github.com/MincYu/gillis-open-source" target="_blank">code</a>] [<a href="https://ieeexplore.ieee.org/document/9546452" target="_blank">html</a>] [<a href="https://www.youtube.com/watch?v=phaKWHHjyvc" target="_blank">recording</a>] [<a href="assets/docs/gillis-icdcs21.bib" target="_blank">bibtex</a>]<br>
-        <font color='#C82121'><b><i>Best Paper Runner-Up Award</i></b></font>
-  </ul>
-</div>
-
 <h2>Other Recent Papers</h2>
 
 <div style="margin-left:10px;margin-right:10px">
@@ -377,10 +393,12 @@ Last Updated: Aug 2025
 </ul>
 
 <ul>
-  <li> <div id="promptkeeper"><span class="badge" style="font-size: 13px;">arXiv'24</span><font size="3"> <b>Safeguarding System Prompts for LLMs</b></font></div>
-        <u>Zhifeng Jiang</u>, Zhihua Jin, Guoliang He</li>
-        [<a href="https://arxiv.org/pdf/2412.13426" target="_blank">preprint</a>] [<a href="https://github.com/SamuelGong/PromptKeeper" target="_blank">code</a>]
+  <li> <div id="gillis"><font size="3"> <span class="badge badge-primary progress-bar-danger" style="font-size: 13px;">IEEE ICDCS'21</span> <b>Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning</b></font></div>
+        Minchen Yu, <U>Zhifeng Jiang</U>, Hok Chun Ng, Wei Wang, Ruichuan Chen, Bo Li</li>
+        [<a href="assets/docs/gillis-icdcs21.pdf" target="_blank">pdf</a>] [<a href="https://github.com/MincYu/gillis-open-source" target="_blank">code</a>] [<a href="https://ieeexplore.ieee.org/document/9546452" target="_blank">html</a>] [<a href="https://www.youtube.com/watch?v=phaKWHHjyvc" target="_blank">recording</a>] [<a href="assets/docs/gillis-icdcs21.bib" target="_blank">bibtex</a>]<br>
+        <font color='#C82121'><b><i>Best Paper Runner-Up Award</i></b></font>
   </ul>
+</div>
 
 <ul>
 <li> <div id="flashe"><span class="badge" style="font-size: 13px;">arXiv'21</span><font size="3"> <b>FLASHE: Additively Symmetric Homomorphic Encryption for Cross-Silo Federated Learning</b></font></div>
